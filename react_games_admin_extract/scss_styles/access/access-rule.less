@@ -1,0 +1,21 @@
+.AccessRule {
+  display: flex;
+  justify-content: space-between;
+  
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &-Select {
+    width: 100%;
+  }
+
+  &-SelectDropdown {
+    background-color: @bg-gen;
+  }
+
+  &-SelectOption{
+    background-color: @bg-gen;
+    color: @text;
+  }
+}
